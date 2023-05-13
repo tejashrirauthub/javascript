@@ -13,6 +13,6 @@ holder="My Spec"; //variable initilization
 console.log(holder);
 
 holder ="Sachin spec"
-console.log(holder);
+console.log(holder); //variable update
 
 
