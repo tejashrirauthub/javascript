@@ -41,5 +41,7 @@ console.log("type of address variable-->",typeof address);
 
 //2.null
 var pin=null;
-console.log("value of variable->pin:",pin);
-console.log("type of variable->pin",typeof pin);
+console.log("value of variable->pin:-",pin);
+console.log("type of variable->pin:-",typeof pin);
+console.log(typeof 123);
+
