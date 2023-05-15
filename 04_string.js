@@ -4,7 +4,7 @@ console.log("Total number of characters in given strings",greethLength);
 var fisrtName="  Tejashri  ";
  var trimmedFirstName= fisrtName.trim();
  console.log("After trim first name is:",trimmedFirstName,trimmedFirstName.length);
-var lastName="Raut";
+var lastName="     Raut    ";
 var concatString=fisrtName.concat(lastName);     //concat
 console.log("concated string is:-",concatString);
 var fisrtNameLen=fisrtName.length;
