@@ -18,9 +18,9 @@ console.log("char at last index:",charAtLastIndex);
  console.log("Total number of words is 8");
  var indexOfGood=myString.indexOf("good")
  console.log("index of good is:",indexOfGood);
- console.log("string starts with up:",myString.startsWith("up"));
+ console.log("string end with up:",trimmedString.endsWith("up"));
 
- console.log("string starts with hey:",trimmedString.startsWith("Hey"));
+ console.log("string starts with Hey:",trimmedString.startsWith("Hey"));
 
  
 }
