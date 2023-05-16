@@ -1,4 +1,4 @@
-console.log("1)---------find the greatest number among two number-------------");
+console.log("1.---------find the greatest number among two number-------------");
 var greaterNumber=function(num1,num2){
   var result=num1>=num2 ? `${num1}  is greater ${num2}` : `${num2} is greater ${num1}`;
   console.log(result);
@@ -6,7 +6,7 @@ var greaterNumber=function(num1,num2){
 greaterNumber(10,-10);
 greaterNumber(800,899);
 
-console.log("------------check even number or odd number----------------------");
+console.log("2.------------check even number or odd number----------------------");
 var isEvenOrOddNum=function(num){
 var result=num%2==0 ? true :false;
 return result;
@@ -24,7 +24,7 @@ var result= isEvenOrOddNum(101);
 var res=(result==true) ? " 101 is even":"101 is odd";
 console.log(`${res}`);
 
-console.log("------------check given word has even or odd length--------------");
+console.log("3.------------check given word has even or odd length--------------");
 
 var wordLength=function(word){
   var len=word.length;
