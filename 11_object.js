@@ -18,7 +18,7 @@ let person= {
     console.log(`${this.name}Yes.. I can walk ${totalWalk}`);
    },
    details:function () {
-    console.log(`person details : name ${this.name}. city:${this.city} Age:${this.age}`);
+    console.log(`person details : name ${this.name} city:${this.city} Age:${this.age}`);
    },
    getDetails:function(){
     let details=`Name:${this.name},Age:${this.age},Is married:${this.isMarried},City:${this.city}`;
