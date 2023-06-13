@@ -1,16 +1,10 @@
-const array = [2, 3, 5,  6,  7,  9 ];
-// const arrayTransformed = [4, 9, 25, 36, 49, 81 ];
-const arrayTransformed= [];
-array.forEach( (element)=> {
-    arrayTransformed.push(element*element);
-});
-console.log(arrayTransformed);
-console.log("======== using map()  ========");
-const arrayTrans = array.map( (element) => {
-    return element*element;
-} );
-console.log(arrayTrans);
 
+const array=[23,56,78,9,5,4,0,66,21];
+const sum=array.reduce((runningTotal,value)=>{
+
+ return runningTotal+value;
+});
+console.log(sum);
 
 class Employee {
     constructor(emp_id, emp_name, emp_dept, emp_salary, emp_company){
@@ -30,31 +24,14 @@ const emp_viny = new Employee(88, "Vinayak", "IT", 75000, "TCS");
 const emp_mahi = new Employee(99, "Mahesh", "HR", 85000, "Infy");
 
 const array_employees = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monika, emp_viny, emp_mahi];
-console.log("=============Get the list of employee names===============");
-//const empNames=[];
-//array_employees.forEach((Employee)=>{
-//empNames.push(Employee.emp_name)
-//});
-//console.log(empNames);
-
-const empNames=array_employees.map((Employee)=>{
-
-    return Employee.emp_name;
+console.log("Find out the sum of salary of all employee");
+const empSalaries=array_employees.map((Employee)=>{
+ return Employee.emp_salary;
 });
-console.log(empNames);
+const sulSalary=empSalaries.reduce((runningTotal,value)=>{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+return runningTotal+value
+});
+console.log(sulSalary);
+const average=sulSalary/empSalaries.length;
+console.log(average);
